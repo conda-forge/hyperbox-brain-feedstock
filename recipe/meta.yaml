@@ -1,5 +1,5 @@
 {% set name = "hyperbox-brain" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/UTS-CASLab/hyperbox-brain/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 69c49bba5afbadc5c5dcda92b02b0b9a200a93481b5ea6c6f78307d924d5926b
+  sha256: 12979e9b7be4d0d82da7cbc71cc4e6c87eef8a33516b20f6a1064903f7aae987
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
@@ -28,14 +28,6 @@ requirements:
     - joblib
   run:
     - python >=3.6
-    - numpy >=1.14.6
-    - scikit-learn >=0.24.0
-    - scipy >=1.1.0
-    - joblib >=0.11
-    - threadpoolctl >=2.0.0
-    - plotly >=4.10.0
-    - pandas >=0.25.0
-    - matplotlib >=2.2.3
 
 test:
   imports:
