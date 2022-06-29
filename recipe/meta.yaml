@@ -48,7 +48,7 @@ test:
 
 about:
   home: https://uts-caslab.github.io/hyperbox-brain/
-  summary: 'A scikit-learn compatible hyperbox-based machine learning library in Python'
+  summary: A scikit-learn compatible hyperbox-based machine learning library in Python
   description: |
     hyperbox-brain is a Python open source toolbox implementing hyperbox-based machine learning algorithms
     built on top of scikit-learn and is distributed under the GPL-3.0 license. The project was started in
