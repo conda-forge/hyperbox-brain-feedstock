@@ -1,5 +1,5 @@
 {% set name = "hyperbox-brain" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/UTS-CASLab/hyperbox-brain/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 12979e9b7be4d0d82da7cbc71cc4e6c87eef8a33516b20f6a1064903f7aae987
+  sha256: 79eaa6dbce3e1673638ad8b95e25e39756adcf38373f525b01ce9f7fa043327e
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
